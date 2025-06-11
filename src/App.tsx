@@ -260,6 +260,13 @@ function App() {
             </div>
 
             {/* Mobile menu button */}
+            <button
+  onClick={() => scrollToSection('contact')}
+  className="px-6 py-3 bg-primary-600 text-white font-semibold rounded-lg shadow-lg hover:bg-primary-700 transition"
+>
+  Get Started
+</button>
+
             <div className="md:hidden">
               <motion.button
                 whileTap={{ scale: 0.95 }}
